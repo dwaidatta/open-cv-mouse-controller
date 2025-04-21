@@ -39,6 +39,7 @@ This repository contains two main scripts:
 ### 1. Clone the Repository
 
 `git clone https://github.com/dwaidatta/open-cv-mouse-controller.git`
+
 `cd hand-mouse-controller`
 
 
@@ -46,11 +47,9 @@ This repository contains two main scripts:
 
 `pip install opencv-python mediapipe pyautogui numpy`
 
-
 #### For Windows Always-on-Top Feature (in `2hand.py`):
 
 `pip install pygetwindow pywin32`
-
 
 ---
 
