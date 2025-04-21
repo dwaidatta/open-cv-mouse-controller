@@ -38,18 +38,23 @@ This repository contains two main scripts:
 
 ### 1. Clone the Repository
 
-`git clone https://github.com/dwaidatta/open-cv-mouse-controller.git`
-
-`cd hand-mouse-controller`
+```bash
+git clone https://github.com/dwaidatta/open-cv-mouse-controller.git
+cd hand-mouse-controller
+```
 
 
 ### 2. Install Python Dependencies
 
-`pip install opencv-python mediapipe pyautogui numpy`
+```bash
+pip install opencv-python mediapipe pyautogui numpy
+```
 
 #### For Windows Always-on-Top Feature (in `2hand.py`):
 
-`pip install pygetwindow pywin32`
+```bash
+pip install pygetwindow pywin32
+```
 
 ---
 
@@ -125,11 +130,15 @@ This repository contains two main scripts:
 
 1. **Run the script:**
 
-`python hand.py`
+```bash
+python hand.py
+```
 
 or
 
-`python 2hand.py`
+```bash
+python 2hand.py
+```
 
 2. **Control the mouse with your hand(s):**
 
